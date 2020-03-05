@@ -1,3 +1,13 @@
+---
+author: Edson Ayllon
+category: algorithm
+tags: 
+- grid
+twitter: https://twitter.com/relativeread
+---
+
+## Algo 5-2020
+
 # green cells puzzle
 
 Checks repeating instances in a table pattern
