@@ -50,5 +50,5 @@ arr.forEach(i => {
     if (i.reduce((a, b) => a + b, 0) == 5) count++
 })
 
-console.log(count)
+console.log(count) // 51
 ```
