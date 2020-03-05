@@ -1,22 +1,3 @@
-# green cells puzzle
-
-Checks repeating instances in a table pattern
-
-## Description
-
-Given this table:
-
-![table](./table.png)
-
-Find how many columns will be all green cells for the first 1000 columns? 
-
-## Solution
-
-The first row displays a green cell every other cell. The 2nd row displays 2 green cells every 2 cells. The 3rd row displays 3 green cells every 3 cells, etc. 
-
-Create a 2D array which recreates it, check for the columns where all cells are green. 
-
-```
 // create empty 2D array
 let arr = new Array(1001)
 
@@ -41,4 +22,5 @@ arr.forEach(i => {
 })
 
 console.log(count)
-```
+
+
