@@ -1,10 +1,9 @@
-// create empty 2D array
-
 function solution(cols) {
     // pattern repeats ever 120, every 120 has 6 all green columns
     // get quotient and remainder
     let [quot, rem] = [Math.floor(cols/120), cols % 120];
 
+    // start count by including 120 pattern iterations
     let count = 6 * quot;
 
     if (rem !== 0) {
@@ -26,16 +25,11 @@ function solution(cols) {
 
         // check how many columns are all green cells
         arr.forEach(i => {
-            if (i.reduce((a, b) => a + b, 0) == 5) count++
+            if (i.reduce((a, b) => a + b, 0) == arr[0].length) count++
         })
     }
-
 
     return count;
 }
 
-
-
-console.log(solution(120))
-
-
+console.log(solution(1e6))
