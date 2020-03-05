@@ -1,3 +1,13 @@
+---
+author: Edson Ayllon
+category: algorithm
+tags: 
+- grid
+twitter: https://twitter.com/relativeread
+---
+
+## Algo 5-2020
+
 # green cells puzzle
 
 Checks repeating instances in a table pattern
@@ -40,5 +50,7 @@ arr.forEach(i => {
     if (i.reduce((a, b) => a + b, 0) == 5) count++
 })
 
-console.log(count)
+console.log(count) // 51
 ```
+
+Time complexity of O(5n) or O(n).
