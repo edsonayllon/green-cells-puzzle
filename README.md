@@ -26,7 +26,7 @@ The first row displays a green cell every other cell. The 2nd row displays 2 gre
 
 Create a 2D array which recreates it, check for the columns where all cells are green. 
 
-```
+```javascript
 // create empty 2D array
 let arr = new Array(1001)
 
@@ -57,7 +57,7 @@ Time complexity of O(5n) or O(n).
 
 With more simplification, where the pattern repeats at the least common  multiple, the efficiency goes to O(5*119) or O(1). As the columns go up, the worst cast time complexity stays the same. 
 
-```
+```javascript
 function solution(cols) {
     // pattern repeats ever 120, every 120 has 6 all green columns
     // get quotient and remainder
