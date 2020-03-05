@@ -52,3 +52,5 @@ arr.forEach(i => {
 
 console.log(count) // 51
 ```
+
+Time complexity of O(5n) or O(n).
